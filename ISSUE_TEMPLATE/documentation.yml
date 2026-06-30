@@ -1,0 +1,29 @@
+name: Documentation
+description: Report missing, confusing, or incorrect documentation
+title: "[Docs]: "
+labels: ["documentation", "needs-triage"]
+body:
+  - type: textarea
+    id: location
+    attributes:
+      label: Location
+      description: Link or path to the relevant documentation.
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: Issue
+      description: What is missing, confusing, outdated, or incorrect?
+    validations:
+      required: true
+  - type: textarea
+    id: suggested-change
+    attributes:
+      label: Suggested change
+      description: Proposed wording or structure, if you have it.
+  - type: textarea
+    id: source
+    attributes:
+      label: Source of truth
+      description: Code, spec, test, issue, or release note that supports the correction.

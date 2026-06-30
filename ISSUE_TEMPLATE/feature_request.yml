@@ -1,0 +1,45 @@
+name: Feature request
+description: Propose a new capability or improvement
+title: "[Feature]: "
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please keep proposals aligned with Genesis Mesh as portable trust infrastructure for sovereign systems.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What problem should this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: What should change?
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Protocol
+        - Network Authority service
+        - SDK
+        - CLI
+        - Documentation
+        - Demos
+        - Content or messaging
+        - Other
+  - type: textarea
+    id: trust-model
+    attributes:
+      label: Trust model impact
+      description: How does this affect identity, recognition, revocation, evidence, policy, or auditability?
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered

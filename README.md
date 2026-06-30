@@ -11,6 +11,21 @@ GitHub renders:
 
 Use this repository for organization-level presentation and community defaults. Keep product, protocol, SDK, and campaign content in their dedicated repositories.
 
+## Files
+
+```text
+profile/README.md
+AGENT.md
+CONTRIBUTING.md
+CODE_OF_CONDUCT.md
+SECURITY.md
+SUPPORT.md
+PULL_REQUEST_TEMPLATE.md
+ISSUE_TEMPLATE/
+```
+
+GitHub uses these community files as defaults for repositories in the organization when a repository does not define its own version.
+
 ## Active Profile
 
 The organization profile content lives at:
