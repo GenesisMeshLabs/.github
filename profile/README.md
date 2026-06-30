@@ -4,13 +4,36 @@ GenesisMesh Labs builds open-source infrastructure for portable trust across sov
 
 Genesis Mesh is a protocol and developer ecosystem for identity, recognition, revocation, and verifiable trust state across independent operators. The goal is simple: systems should be able to cooperate across boundaries without giving one central owner control over trust.
 
-## What We Build
+## Why It Exists
+
+Modern systems can connect, but trust still breaks at organizational boundaries.
+
+Genesis Mesh is built around a different assumption: trust should be explicit, signed, portable, auditable, and revocable across independent systems.
+
+## Core Projects
 
 - **Genesis Mesh**: a sovereign zero-trust control plane with decentralized peer routing, cryptographic identity, and revocation-aware trust.
 - **Trust API and SDKs**: language clients for integrating Genesis Mesh trust primitives into real software.
 - **Protocol proofs**: demos and conformance work for recognition, revocation, delegation, disclosure, consensus, and auditable trust state.
 
-## Core Language
+## Current Repositories
+
+| Repository | Purpose |
+|---|---|
+| [genesismesh](https://github.com/GenesisMeshLabs/genesismesh) | Core protocol implementation, demos, docs, and operations. |
+| [sdk-typescript](https://github.com/GenesisMeshLabs/sdk-typescript) | TypeScript client for the Genesis Mesh Network Authority HTTP API. |
+| [sdk-go](https://github.com/GenesisMeshLabs/sdk-go) | Go SDK for Genesis Mesh integrations. |
+| [sdk-dotnet](https://github.com/GenesisMeshLabs/sdk-dotnet) | C# SDK for .NET applications. |
+
+## Use Cases
+
+- AI agent trust boundaries
+- edge and distributed infrastructure
+- supply-chain trust and release gates
+- enterprise integration across organizational boundaries
+- data-access governance and auditable decisions
+
+## Language We Use
 
 - portable trust
 - sovereign systems
@@ -19,15 +42,17 @@ Genesis Mesh is a protocol and developer ecosystem for identity, recognition, re
 - protocol interoperability
 - independent operators
 
-## Repositories
+## What Genesis Mesh Is Not
 
-- [genesismesh](https://github.com/GenesisMeshLabs/genesismesh): core protocol implementation, demos, docs, and operations.
-- [sdk-typescript](https://github.com/GenesisMeshLabs/sdk-typescript): TypeScript client for the Genesis Mesh Network Authority HTTP API.
-- [sdk-go](https://github.com/GenesisMeshLabs/sdk-go): Go SDK for Genesis Mesh integrations.
-- [sdk-dotnet](https://github.com/GenesisMeshLabs/sdk-dotnet): C# SDK for .NET applications.
+- Not only an AI-agent framework
+- Not a marketplace
+- Not a central identity provider
+- Not a cloud vendor product
+- Not a reputation-score system
+- Not a blockchain or token platform
 
-## Positioning
+## Getting Started
 
-Genesis Mesh is not only an AI-agent framework, not a marketplace, not a central identity provider, and not a cloud vendor product.
+Start with [genesismesh](https://github.com/GenesisMeshLabs/genesismesh) for the protocol implementation and demos.
 
-It is a portable trust layer for sovereign systems.
+Use the SDK repositories when integrating Genesis Mesh trust primitives into applications and services.
