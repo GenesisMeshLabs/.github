@@ -21,9 +21,12 @@ Genesis Mesh is built around a different assumption: trust should be explicit, s
 | Repository | Purpose |
 |---|---|
 | [genesismesh](https://github.com/GenesisMeshLabs/genesismesh) | Core protocol implementation, demos, docs, and operations. |
+| [gateway](https://github.com/GenesisMeshLabs/gateway) | Rust trust-verification gateway built on the same portable trust data model. |
 | [sdk-typescript](https://github.com/GenesisMeshLabs/sdk-typescript) | TypeScript client for the Genesis Mesh Network Authority HTTP API. |
 | [sdk-go](https://github.com/GenesisMeshLabs/sdk-go) | Go SDK for Genesis Mesh integrations. |
 | [sdk-dotnet](https://github.com/GenesisMeshLabs/sdk-dotnet) | C# SDK for .NET applications. |
+| [sdk-rust](https://github.com/GenesisMeshLabs/sdk-rust) | Async Rust client for the Network Authority HTTP API. |
+| [devtools](https://github.com/GenesisMeshLabs/devtools) | Workspace setup for contributors: clone, update, and test every project. |
 
 ## Use Cases
 
@@ -56,3 +59,5 @@ Genesis Mesh is built around a different assumption: trust should be explicit, s
 Start with [genesismesh](https://github.com/GenesisMeshLabs/genesismesh) for the protocol implementation and demos.
 
 Use the SDK repositories when integrating Genesis Mesh trust primitives into applications and services.
+
+To contribute across projects, start with [devtools](https://github.com/GenesisMeshLabs/devtools). It sets up a local workspace with every repository and explains how they fit together.

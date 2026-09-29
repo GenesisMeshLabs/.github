@@ -11,6 +11,8 @@ Before opening a pull request:
 3. Check existing issues and pull requests.
 4. Keep changes focused and explain the trust, security, or compatibility impact.
 
+To work on several projects at once, use [devtools](https://github.com/GenesisMeshLabs/devtools) to clone and test them side by side.
+
 ## Project Boundaries
 
 Genesis Mesh is a portable trust layer for sovereign systems.

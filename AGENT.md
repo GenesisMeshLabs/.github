@@ -9,7 +9,9 @@ Changes here affect the public face and contribution defaults of the organizatio
 Use product repositories for implementation-specific details:
 
 - `genesismesh` for protocol implementation, Network Authority service, demos, docs, and release history.
-- `sdk-typescript`, `sdk-go`, and `sdk-dotnet` for language SDKs.
+- `gateway` for the Rust trust-verification gateway.
+- `sdk-typescript`, `sdk-go`, `sdk-dotnet`, and `sdk-rust` for language SDKs.
+- `devtools` for local workspace setup and shared coding-agent guidance.
 - `genesismesh-content` for campaign articles, voiceover scripts, SSML, and marketing assets.
 
 ## Messaging Rules
